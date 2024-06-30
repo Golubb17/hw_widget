@@ -11,3 +11,4 @@ def mask_account(number_account: Union[str]) -> Union[str]:
     """Функция, которая превращает номер счета - в маску номера счета"""
     masked_account = "**" + number_account[16:]
     return masked_account
+
