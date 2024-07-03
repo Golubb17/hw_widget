@@ -16,8 +16,9 @@ def mask_account_card(value: Union[str]) -> Union[str]:
         answer = "Счет " + masks.mask_account(numbers[0])
         return answer
     else:
-        answer = ' '.join(words) + " " + masks.mask_card(numbers[0])
+        answer = " ".join(words) + " " + masks.mask_card(numbers[0])
         return answer
+
 
 def get_data(data: Union[str]) -> Union[str]:
     """Функция принимает дату и выводит ее в корректом виде"""
