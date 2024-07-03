@@ -32,6 +32,7 @@ def mask_account_card(value):
    ```
    
 или
+
 2. Мы вводим номер и название карты:
    ```
    print(def mask_account_card('MasterCard 7158300734726758'))
